@@ -90,14 +90,15 @@ Este módulo lo cree meramente porque no me gustaba la idea de llenar de funcion
 <h2><strong> Librerías usadas </strong></h2>
 
 Estas son todas las librerías/módulos externos que se usaron para este proyecto:
-<span style="color: gray">NOTA: Los nombres de módulos de color verde son los estándar, los de color blanco son los externos y requieren instalación previa</span>
-<pre><code><span style="color: green">typing</span>
-requests
-<span style="color: green">functools</span>
-pandas
-matplotlib
-<span style="color: green">datetime</span>
-<span style="color: green">os</span>
-dotenv (<em>python-dotenv</em>)
-<span style="color: green">random</span>
+<br>
+<span style="color: gray">NOTA: Los nombres de módulos marcados con una <strong>&times;</strong> son los externos y requieren instalación previa</span>
+<pre><code>typing
+&times; requests
+functools
+&times; pandas
+&times; matplotlib
+datetime
+os
+&times; dotenv (<em>python-dotenv</em>)
+random
 </code></pre>
