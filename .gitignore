@@ -1,0 +1,5 @@
+.env
+__pycache__/
+__venv__/
+.vscode/
+apicalls.py
