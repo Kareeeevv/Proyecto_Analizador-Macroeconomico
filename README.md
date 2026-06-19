@@ -62,13 +62,13 @@ El módulo orquestador; la pantalla final; la zona de ejecución: aquí importam
 - `class` -> **App**: genera la ventana raíz con la librería `tkinter` y, a su vez, agrega un `tkinter.ttk.Notebook` para poder crear una interfaz de pestañas para mayor rendimiento y una mejor comprensión de la aplicación. 
 <br>Después, se construyen las 4 pestañas de la aplicación:
 
-    - 1. `tab_dinero()`: pestaña que simula la inflación acumulada y la caída del valor neto por medio de analizar la devaluación de un billete de <span style="font-family: mathjax">$100.00 MXN</span>, mediante la obtención de la inflación acumulada entre los años establecidos.
+    - `tab_dinero()`: pestaña que simula la inflación acumulada y la caída del valor neto por medio de analizar la devaluación de un billete de <span style="font-family: mathjax">$100.00 MXN</span>, mediante la obtención de la inflación acumulada entre los años establecidos.
 
-    - 2. `tab_juridico()`: pestaña meramente ilustrativa que muestra las normas y leyes guardadas en la función `get_marco_legal`
+    - `tab_juridico()`: pestaña meramente ilustrativa que muestra las normas y leyes guardadas en la función `get_marco_legal`
 
-    - 3. `tab_historia()`: pestaña meramente ilustrativa que muestra los resultados de la evolución simulara en el tercer módulo.
+    - `tab_historia()`: pestaña meramente ilustrativa que muestra los resultados de la evolución simulara en el tercer módulo.
 
-    - 4. `tab_comercio()` pestaña que simula la balanza comercial en términos de exportación o importación en un tratado registrado mediante la gráfica generada en el cuarto módulo.
+    - `tab_comercio()` pestaña que simula la balanza comercial en términos de exportación o importación en un tratado registrado mediante la gráfica generada en el cuarto módulo.
     <br><kbd>Tratados disponibles:<br>| T-MEC | TLCUEM | Alianza del Pacífico | TLC México-Centroamérica |</kbd>
 
 #
